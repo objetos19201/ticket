@@ -1,9 +1,10 @@
 package oop.inheritance;
 
-public class Ticket implements ISaleableItem{
-    private String description;
+public class Publication implements ISaleableItem{
+    private String title;
     private Real price;
-    private String client;
+    private int copies;
+
 
     @Override
     public Real Price() {
@@ -12,7 +13,6 @@ public class Ticket implements ISaleableItem{
 
     @Override
     public void sellCopy() {
-
 
     }
 
